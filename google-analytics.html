@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Google Analytics</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/style.css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="../../index-en.html" title="Make Help Center" />
+    <link rel="up" href="../business-intelligence.html" title="Business Intelligence" />
+    <link rel="prev" href="geckoboard.html" title="Geckoboard" />
+    <link rel="next" href="google-analytics-4.html" title="Google Analytics 4" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Google Analytics</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="geckoboard.html">Prev</a> </td>
+          <th width="60%" align="center">Business Intelligence</th>
+          <td width="20%" align="right"> <a accesskey="n" href="google-analytics-4.html">Next</a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div xml:lang="en" lang="en" dir="ltr" class="section original-topic original-topic" data-permalink="apps/business-intelligence/google-analytics.html">
+      <div class="titlepage">
+        <div>
+          <div class="title">
+            <h4 class="title"><a id="UUID-a63e4290-18e4-61e1-e645-d040aa1bc778"></a>Google Analytics</h4>
+          </div>
+        </div>
+      </div>
+      <p>The Google Analytics module enables you to retrieve analytics data in your Google Analytics.</p>
+      <div dir="ltr" class="section internal internal">
+        <div class="titlepage">
+          <div>
+            <div class="title">
+              <h5 class="title"><a id="UUID-a63e4290-18e4-61e1-e645-d040aa1bc778_id_getting-started-with-google-analytics"></a>Getting Started with Google Analytics</h5>
+            </div>
+          </div>
+        </div>
+        <p>Prerequisites</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>A Google Analytics account – you can create one at <a class="link" href="http://www.google.com/analytics/" target="_blank">www.google.com/analytics</a></p>
+            </li>
+            <li class="listitem">
+              <p>A Universal Analytics property created (in order to obtain a <span class="emphasis"><em>View ID</em></span>)</p>
+            </li>
+          </ul>
+        </div>
+        <div class="note notice" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Note]" src="../css/image/note.png" />
+              </td>
+              <th align="left">Note</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>The module dialog fields that are displayed in <span class="bold"><strong>bold</strong></span> (in the <span class="phrase">{{Make}}</span> <span class="phrase">scenario</span>, <span class="bold"><strong>not</strong></span> in this documentation article) are mandatory!</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div xml:lang="en" lang="en" dir="ltr" class="section">
+        <div class="titlepage">
+          <div>
+            <div class="title">
+              <h5 class="title"><a id="UUID-a63e4290-18e4-61e1-e645-d040aa1bc778_UUID-1670c42b-7868-9179-9486-689697527d1c"></a>Connecting Google Analytics to <span class="phrase">{{Make}}</span></h5>
+            </div>
+          </div>
+        </div>
+        <div class="procedure">
+          <ol class="procedure" type="1">
+            <li class="step">
+              <p>Go to <span class="phrase">{{Make}}</span> and open the Google Analytics module's <span class="emphasis"><em>Create a connection</em></span> dialog.</p>
+            </li>
+            <li class="step">
+              <p>Enter a name for the connection to the Connection name field and click <span class="emphasis"><em>Continue</em></span>.</p>
+              <div class="mediaobject">
+                <img src="image/uuid-bda8e860-ee06-e52d-1b07-e7451a699c4f.png" style="" alt="61d5b4017c1d3.png" />
+              </div>
+              <p>After you click the Continue button, <span class="phrase">{{Make}}</span> will redirect you to the Google website where you will be prompted to grant <span class="phrase">{{Make}}</span> access to your account.</p>
+            </li>
+            <li class="step">
+              <p>Confirm the dialog by clicking the <span class="emphasis"><em>Allow</em></span> button.</p>
+              <div class="mediaobject">
+                <table class="image-viewport" summary="manufactured viewport for HTML img" style="border-collapse:collapse;border:0;&#10;                                width:400px;&#10;                            ">
+                  <tr style="height: 581px">
+                    <td style="padding:0;">
+                      <img src="image/uuid-c059dc9a-9dde-814f-80f6-74a4de80d04f.png" style="max-width: 400px; max-height: 581px; " alt="61d5b4028df8e.png" />
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </li>
+          </ol>
+          <div class="result">
+            <p>The connection has been established.</p>
+          </div>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Note]" src="../css/image/note.png" />
+              </td>
+              <th align="left">Note</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Some adblocking browser plugins could block the Google Analytics app based on the Analytics keyword in the app. It is recommended to disable the plugins if you encounter such an error.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div xml:lang="en" lang="en" dir="ltr" class="section">
+        <div class="titlepage">
+          <div>
+            <div class="title">
+              <h5 class="title"><a id="UUID-a63e4290-18e4-61e1-e645-d040aa1bc778_UUID-11a65995-92e9-a790-4aff-1eae41d0a8cf"></a>Actions</h5>
+            </div>
+          </div>
+        </div>
+        <div xml:lang="en" lang="en" dir="ltr" class="section accordion accordion">
+          <div class="titlepage">
+            <div>
+              <div class="title">
+                <h6 class="title"><a id="UUID-a63e4290-18e4-61e1-e645-d040aa1bc778_UUID-1c0fd1c2-763f-d349-40b9-4236b7e2dbff"></a>Get Analytics Reports</h6>
+              </div>
+            </div>
+          </div>
+          <p>Retrieves the analytic data for the specified website.</p>
+          <div class="informaltable table-responsive">
+            <table>
+              <colgroup>
+                <col />
+                <col />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Connection</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Establish a connection to your Google Analytics account.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>View ID</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Enter the View ID. See <a class="link linktype-component" href="google-analytics.html#UUID-a63e4290-18e4-61e1-e645-d040aa1bc778_UUID-3baeaba4-dcf1-51a8-253b-fe0f85df2f59" title="How To Obtain a View ID">How To Obtain a View ID</a> section.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Sampling Level</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Select the sampling level:</p>
+                    <div class="itemizedlist">
+                      <ul class="itemizedlist" style="list-style-type: disc; ">
+                        <li class="listitem">
+                          <p><span class="bold"><strong>Default</strong></span> – Returns response with a sample size that balances speed and accuracy.</p>
+                        </li>
+                        <li class="listitem">
+                          <p><span class="bold"><strong>Small</strong></span> – Returns a fast response with a smaller sampling size.</p>
+                        </li>
+                        <li class="listitem">
+                          <p><span class="bold"><strong>Large</strong></span> – Returns a more accurate response using a large sampling size. But this may result in response being slower.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Date Ranges</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Specify at least one date range you want to return results for.</p>
+                    <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+                      <table border="0" summary="Note">
+                        <tr>
+                          <td rowspan="2" align="center" valign="top" width="25">
+                            <img alt="[Note]" src="../css/image/note.png" />
+                          </td>
+                          <th align="left">Note</th>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top">
+                            <p>When no date range is specified, no results will be returned.</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <p>See the <a class="link linktype-component" href="../../mapping/examples-of-date-format-.html" title="Examples of date format:">supported date and time formats</a>.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Dimensions</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Specify dimensions you want to include in the module's output. For example, the dimension <span class="emphasis"><em>ga:city</em></span> indicates the city from which a session originates.</p>
+                    <div class="informaltable table-responsive">
+                      <table>
+                        <colgroup>
+                          <col />
+                          <col />
+                        </colgroup>
+                        <tbody>
+                          <tr>
+                            <td class="td">
+                              <p>
+                                <span class="bold">
+                                  <strong>Name</strong>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="td">
+                              <p>Enter the name of the dimension you want to include in the module's output.</p>
+                              <p>You can use the search button to find the correct name:</p>
+                              <div class="mediaobject">
+                                <img src="image/uuid-7d6285a1-552e-d8b4-d4a1-5771066bada8.gif" style="" alt="61d5b403cc1ef.gif" />
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="td">
+                              <p>
+                                <span class="bold">
+                                  <strong>Histogram Buckets</strong>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="td">
+                              <p>Enter the Histogram Buckets values. Useful, e.g., for the <span class="emphasis"><em>ga:hour</em></span> dimension (object).</p>
+                              <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+                                <table border="0" summary="Tip">
+                                  <tr>
+                                    <td rowspan="2" align="center" valign="top" width="25">
+                                      <img alt="[Tip]" src="../css/image/tip.png" />
+                                    </td>
+                                    <th align="left">Tip</th>
+                                  </tr>
+                                  <tr>
+                                    <td align="left" valign="top">
+                                      <p>For more details about Histogram Buckets, read the following article: <a class="link" href="https://www.bounteous.com/insights/2017/07/27/google-analytics-api-v4-histogram-buckets/" target="_blank">bounteous.com/insights/2017/07/27/google-analytics-api-v4-histogram-buckets</a></p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Dimension Filter Clauses</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Add groups of dimension filters.</p>
+                    <p>The dimension filter specifies the filtering options on a dimension. For more details about dimension filters, please refer to <a class="link" href="https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/reports/batchGet#dimensionfilter" target="_blank">Dimension Filter documentation</a>.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Metrics</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Add metrics. <a class="link" href="https://support.google.com/analytics/answer/1033861" target="_blank">Metrics</a> are quantitative measurements. For example, the metric <code class="code">ga:users</code> indicates the total number of users for the requested time period.</p>
+                    <p>The metric filter clauses. They are logically combined with the <code class="code">AND</code> operator. Metric filters look at only the first date range and not the comparing date range. Note that filtering on metrics occurs after the metrics are aggregated.</p>
+                    <div class="informaltable table-responsive">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td class="td">
+                              <p>
+                                <span class="bold">
+                                  <strong>Expression</strong>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="td">
+                              <p>Enter a metric expression in the request. An expression is constructed from one or more metrics and numbers. Accepted operators include Plus (+), Minus (-), Negation (Unary -), Divided by (/), Multiplied by (*), Parenthesis, Positive cardinal numbers (0-9), can include decimals and is limited to 1024 characters. For example, <code class="code">ga:totalRefunds/ga:users</code>, in most cases the metric expression is just a single metric name like <code class="code">ga:users</code>. Adding mixed <code class="code">MetricType</code> (E.g., <code class="code">CURRENCY</code> + <code class="code">PERCENTAGE</code>) metrics will result in unexpected results.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="td">
+                              <p>
+                                <span class="bold">
+                                  <strong>Alias</strong>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="td">
+                              <p>Enter an alias for the metric expression is an alternate name for the expression. The alias can be used for filtering and sorting. This field is optional and is useful if the expression is not a single metric but a complex expression that cannot be used in filtering and sorting. The alias is also used in the response column header.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="td">
+                              <p>
+                                <span class="bold">
+                                  <strong>Formatting Type</strong>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="td">
+                              <p>Select how the metric expression should be formatted.</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Metric Filter Clauses</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Set the metric filters.</p>
+                    <p>Select the operator for combining multiple metric filters and add metric filters. For more details about metric filter, please see <a class="link" href="https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/reports/batchGet#metricfilter" target="_blank">metric filters</a> documentation.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Filters Expression</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Enter a dimension or metric on which to filter, followed by the filter expression. For example, the following expression selects <code class="code">ga:browser</code> dimension which starts with Firefox; <code class="code">ga:browser=~^Firefox</code>. For more information on dimensions and metric filters, see <a class="link" href="https://developers.google.com/analytics/devguides/reporting/core/v3/reference#filters" target="_blank">Filters reference</a>.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Order By</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Set the sorting options.</p>
+                    <div class="informaltable table-responsive">
+                      <table>
+                        <colgroup>
+                          <col />
+                          <col />
+                        </colgroup>
+                        <tbody>
+                          <tr>
+                            <td class="td">
+                              <p>
+                                <span class="bold">
+                                  <strong>Field Name</strong>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="td">
+                              <p>Enter the field which to sort by. The default sort order is ascending.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="td">
+                              <p>
+                                <span class="bold">
+                                  <strong>Order Type</strong>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="td">
+                              <p>Select how the sort order is being determined.</p>
+                              <p>A detailed description of the options can be found in the <a class="link" href="https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/reports/batchGet#ordertype" target="_blank">GA v4 API documentation</a>.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="td">
+                              <p>
+                                <span class="bold">
+                                  <strong>Sort Order</strong>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="td">
+                              <p>Select the sort order of the returned results.</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Segments</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>If you need the report to be segmented, define segments you want to return. You can create a new segment (<a class="link" href="https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/reports/batchGet#dynamicsegment" target="_blank">a dynamic segment</a>) or enter the ID of the existing segment to be used.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Pivots</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Specify the pivot section. Please find the description of pivot fields in the <a class="link" href="https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/reports/batchGet#ordertype" target="_blank">GA v4 API documentation</a>.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Cohorts</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Add and specify cohorts – cohort is a group of users who share a common characteristic.</p>
+                    <p>Please find the description of cohort fields in the <a class="link" href="https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/reports/batchGet#ordertype" target="_blank">GA v4 API documentation</a>.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Lifetime Value</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>If the value of Lifetime Value is disabled:</p>
+                    <div class="itemizedlist">
+                      <ul class="itemizedlist" style="list-style-type: disc; ">
+                        <li class="listitem">
+                          <p>The metric values are similar to the values in the web interface cohort report.</p>
+                        </li>
+                        <li class="listitem">
+                          <p>The cohort definition date ranges must be aligned to the calendar week and month. i.e. while requesting <code class="code">ga:cohortNthWeek</code> the <code class="code">startDate</code> in the cohort definition should be a Sunday and the <code class="code">endDate</code> should be the following Saturday, and for <code class="code">ga:cohortNthMonth</code>, the <code class="code">startDate</code> should be the 1st of the month and <code class="code">endDate</code> should be the last day of the month.</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <p>When the Lifetime Value is enabled:</p>
+                    <div class="itemizedlist">
+                      <ul class="itemizedlist" style="list-style-type: disc; ">
+                        <li class="listitem">
+                          <p>The metric values will correspond to the values in the web interface LifeTime value report.</p>
+                        </li>
+                        <li class="listitem">
+                          <p>The Lifetime Value report shows you how user value (Revenue) and engagement (Appviews, Goal Completions, Sessions, and Session Duration) grow during the 90 days after a user is acquired.</p>
+                        </li>
+                        <li class="listitem">
+                          <p>The metrics are calculated as a cumulative average per user per time increment.</p>
+                        </li>
+                        <li class="listitem">
+                          <p>The cohort definition date ranges need not be aligned to the calendar week and month boundaries.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Include Empty Rows</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Enable to include rows if all the retrieved metrics are equal to zero. The default is disabled which will exclude these rows.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Use Resource Quotas</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Enables <a class="link" href="https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas#analytics_reporting_api_v4" target="_blank">resource based quotas</a>, (defaults to <code class="code">False</code>). If this field is set to <code class="code">True</code> the per view (profile) quotas are governed by the computational cost of the request. Note that using cost-based quotas will higher enable sampling rates. (10 Million for <code class="code">SMALL</code>, 100M for <code class="code">LARGE</code>. See the <a class="link" href="https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas#analytics_reporting_api_v4" target="_blank">limits and quotas documentation</a> for details.</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div xml:lang="en" lang="en" dir="ltr" class="section accordion accordion">
+          <div class="titlepage">
+            <div>
+              <div class="title">
+                <h6 class="title"><a id="UUID-a63e4290-18e4-61e1-e645-d040aa1bc778_UUID-6b740a2d-9daf-e429-ec6e-d5931cb18f12"></a>Make an API Call</h6>
+              </div>
+            </div>
+          </div>
+          <p>Allows you to perform a custom API call.</p>
+          <div class="informaltable table-responsive">
+            <table>
+              <colgroup>
+                <col />
+                <col />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Connection</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p><a id="UUID-a63e4290-18e4-61e1-e645-d040aa1bc778_para-idm183285509418182"></a>Establish a connection to your Google Analytics account.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>URL</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Enter a path relative to <code class="code">https://analyticsreporting.googleapis.com</code>. For example: <code class="code">/v4/reports:batchGet</code>.</p>
+                    <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+                      <table border="0" summary="Note">
+                        <tr>
+                          <td rowspan="2" align="center" valign="top" width="25">
+                            <img alt="[Note]" src="../css/image/note.png" />
+                          </td>
+                          <th align="left">Note</th>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top">
+                            <p>For the list of available endpoints, refer to the <a class="link" href="https://developers.google.com/analytics/devguides/reporting/core/v4" target="_blank">Google Analytics v4 API Documentation</a>.</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Method</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Select the HTTP method you want to use:</p>
+                    <p><code class="code">GET</code> to retrieve information for an entry.</p>
+                    <p><code class="code">POST</code> to create a new entry.</p>
+                    <p><code class="code">PUT</code> to update/replace an existing entry.</p>
+                    <p><code class="code">PATCH</code> to make a partial entry update.</p>
+                    <p><code class="code">DELETE</code> to delete an entry.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Headers</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Enter the desired request headers. You don't have to add authorization headers; we added those for you.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Query String</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Enter the request query string.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">
+                    <p>
+                      <span class="bold">
+                        <strong>Body</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td class="td">
+                    <p>Enter the body content for your API call.</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div xml:lang="en" lang="en" dir="ltr" class="section accordion accordion">
+          <div class="titlepage">
+            <div>
+              <div class="title">
+                <h6 class="title"><a id="UUID-a63e4290-18e4-61e1-e645-d040aa1bc778_UUID-dcf27c76-f45f-64a9-9218-6048d0ef8812"></a>Example of Use - Get Analytics Reports.</h6>
+              </div>
+            </div>
+          </div>
+          <p>The following API call returns analytics reports within the date range and specified dimensions and in your Google Analytics account:</p>
+          <p><span class="bold"><strong>URL</strong></span>: <code class="code">/v4/reports:batchGet</code></p>
+          <p><span class="bold"><strong>Method</strong></span>: <code class="code">POST</code></p>
+          <p><span class="bold"><strong>Body</strong></span>:</p>
+          <pre class="programlisting">{ "reportRequests": [
+{"viewId": "{viewID}",
+"dateRanges": [{"endDate": "2021-03-23",
+"startDate": "2020-01-01"}],
+"dimensions": [{"name": "ga:browser"},
+{"name": "ga:city"}],}],}</pre>
+          <div class="mediaobject">
+            <table class="image-viewport" summary="manufactured viewport for HTML img" style="border-collapse:collapse;border:0;&#10;                                width:350px;&#10;                            ">
+              <tr style="height: 835px">
+                <td style="padding:0;">
+                  <img src="image/uuid-0232785a-3c8f-7c4d-b5fb-4a0c948fa338.png" style="max-width: 350px; max-height: 835px; " alt="61d5b405e1c5f.png" />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>The result can be found in the module's <span class="bold"><strong>Output</strong></span> under <span class="emphasis"><em>Bundle &gt; Body &gt; reports</em></span>. In our example, the report data were returned:</p>
+          <div class="mediaobject">
+            <table class="image-viewport" summary="manufactured viewport for HTML img" style="border-collapse:collapse;border:0;&#10;                                width:350px;&#10;                            ">
+              <tr style="height: 645px">
+                <td style="padding:0;">
+                  <img src="image/uuid-bb81f7c8-c23a-32f3-225a-12248f583c00.png" style="max-width: 350px; max-height: 645px; " alt="61d5b4071615a.png" />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div xml:lang="en" lang="en" dir="ltr" class="section accordion accordion">
+          <div class="titlepage">
+            <div>
+              <div class="title">
+                <h6 class="title"><a id="UUID-a63e4290-18e4-61e1-e645-d040aa1bc778_UUID-3baeaba4-dcf1-51a8-253b-fe0f85df2f59"></a>How To Obtain a View ID</h6>
+              </div>
+            </div>
+          </div>
+          <div class="procedure">
+            <ol class="procedure" type="1">
+              <li class="step">
+                <p>Log in to your Google Analytics account.</p>
+              </li>
+              <li class="step">
+                <p>Navigate to the <span class="emphasis"><em>Admin</em></span> page and click <span class="emphasis"><em>+Create Property</em></span> button.</p>
+                <div class="mediaobject">
+                  <img src="image/uuid-41519d72-dbe9-447c-793d-d3889403972d.gif" style="" alt="61d5b4087993b.gif" />
+                </div>
+              </li>
+              <li class="step">
+                <p>Fill in the property details, click <span class="emphasis"><em>Show advanced options</em></span> (<span class="inlinemediaobject"><img src="image/uuid-db7fce2e-6176-f1eb-e34f-3c430b53a9fa.png" style="max-width: 139px; max-height: 30px; " alt="61d5b40af27ae.png" /></span>) and enable the <span class="bold"><strong><span class="emphasis"><em>Create a Universal Analytics property</em></span></strong></span> option.</p>
+                <div class="mediaobject">
+                  <img src="image/uuid-bd4f29da-ca7a-8ad1-a9f2-fa143caa885c.gif" style="" alt="61d5b40c0d399.gif" />
+                </div>
+              </li>
+              <li class="step">
+                <p>Enter your website URL and finish setting up the property – see <a class="link" href="https://support.google.com/analytics/answer/9304153" target="_blank">GA documentation</a> for further details.</p>
+              </li>
+              <li class="step">
+                <p>Switch to the <span class="emphasis"><em>Universal Analytics</em></span> property (<span class="bold"><strong>UA</strong></span>-XXXXXXXXX-2).</p>
+                <div class="mediaobject">
+                  <img src="image/uuid-c4913784-5b65-f605-79e1-c74e94808d54.gif" style="" alt="61d5b40ea3b2b.gif" />
+                </div>
+              </li>
+              <li class="step">
+                <p>Open <span class="emphasis"><em>View Settings</em></span> and copy the <span class="emphasis"><em>View ID</em></span>.</p>
+                <div class="mediaobject">
+                  <img src="image/uuid-d1dee214-8fa7-8c85-4b06-4d8b8de613f2.gif" style="" alt="61d5b41134604.gif" />
+                </div>
+              </li>
+            </ol>
+          </div>
+          <div class="note notice" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[Note]" src="../css/image/note.png" />
+                </td>
+                <th align="left">Note</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>Use the tracking tag from your <span class="emphasis"><em>Universal Analytics</em></span> property (<span class="bold"><strong>UA</strong></span>-XXXXXXXXX-2), not from your GA4 property.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="geckoboard.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="../business-intelligence.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="google-analytics-4.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Geckoboard </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="../../index-en.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Google Analytics 4</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
